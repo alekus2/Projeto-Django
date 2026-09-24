@@ -1,0 +1,27 @@
+1° Coisa a se fazer: 
+#Instalar o django na venv.
+pip install django
+
+
+2°:
+#Começar um app
+django-admin startproject app .
+
+3°:
+#Iniciar o servidor do app.
+python manage.py runserver
+
+4°:
+#verificar migrações
+python manage.py makemigrations
+
+5°:
+#enviar as migrações para o banco de dados.
+python manage.py migrate
+
+6°:
+#criar um usuario admin
+python manage.py createsuperuser
+#criei um super usuario de teste: 
+Nome: Alex
+Password: Vinitata1807
