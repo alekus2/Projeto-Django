@@ -33,3 +33,10 @@ pip install django-jazzmin==3.0.1
 8°:
 #pegar o exemplo completo da documentação e colocar dentro de settings.py
 settings.py <- full example
+
+9°:
+#criar um app de cursos por exemplo
+python manage.py startapp courses
+
+10°:
+#inserir courses em settings.py dentro de installed apps
